@@ -1,7 +1,3 @@
-class discountError(Excepticon):
-    pass
-
-
 def apply_discount(price: int, discount: float = 0.0) -> int:
     """calculate the Final Price After Discount"""
     final_price = int(price * (1 - discount))
